@@ -21,9 +21,7 @@ modules:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
       - https://cli.github.com/packages/rpm/gh-cli.repo
     optfix:
-      - Mullvad\ VPN
       - Mullvad VPN
-      - Mullvad VPN/mullvad-vpn
     install:
       # - micro
       # - starship
