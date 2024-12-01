@@ -21,12 +21,12 @@ modules:
       # - https://repository.mullvad.net/rpm/stable/mullvad.repo
       # - https://cli.github.com/packages/rpm/gh-cli.repo
     optfix:
-      # - Mullvad VPN
+       - Mullvad VPN
     install:
       # - micro
       # - starship
       # - gh
-      # - mullvad-vpn
+      - mullvad-vpn
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -49,9 +49,6 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
       # - org.gnome.eog
-  - type: script
-    scripts:
-      - mullvad-vpn.sh
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
