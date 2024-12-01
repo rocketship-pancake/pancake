@@ -49,7 +49,11 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
       # - org.gnome.eog
-    - from-file: mullvad-vpn-module.yml
+  - from-file: mullvad-vpn-module.yml
+  - type: systemd
+    system:
+      enabled:
+        - mullvad-daemon
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
