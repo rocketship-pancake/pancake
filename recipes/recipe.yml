@@ -25,6 +25,8 @@ modules:
       # - micro
       # - starship
       - mullvad-vpn
+      - snapd
+      - web-eid
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -51,7 +53,5 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-pancake.gschema.override
-
-  # - type: dbus-launch
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
