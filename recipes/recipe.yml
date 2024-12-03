@@ -52,6 +52,6 @@ modules:
     include:
       - zz1-pancake.gschema.override
 
-  - type: dbus-launch
+  # - type: dbus-launch
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
