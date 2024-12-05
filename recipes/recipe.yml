@@ -25,7 +25,6 @@ modules:
       # - micro
       # - starship
       - mullvad-vpn
-      - snapd
       - web-eid
     remove:
       # example: removing firefox (in favor of the flatpak)
