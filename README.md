@@ -1,4 +1,4 @@
-# My custom image from BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
+# My custom image from BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/rocketship-pancake/penguin-pancake/actions/workflows/build.yml/badge.svg)](https://github.com/rocketship-pancake/penguin-pancake/actions/workflows/build.yml)
 
 This is just a scuffed pancake made for fun.
 
