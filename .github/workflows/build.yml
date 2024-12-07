@@ -1,4 +1,4 @@
-name: bluebuild
+name: pancake # bluebuild
 on:
   schedule:
     - cron: "00 06 * * *" # build at 06:00 UTC every day 
@@ -10,7 +10,7 @@ on:
   pull_request:
   workflow_dispatch: # allow manually triggering builds
 jobs:
-  bluebuild:
+  pancake:
     name: Build Custom Image
     runs-on: ubuntu-latest
     permissions:
