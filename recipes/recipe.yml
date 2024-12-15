@@ -24,8 +24,6 @@ modules:
     install:
       - mullvad-vpn
       - open-eid
-      - firefox
-      - firefox-langpacks
     # remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -39,7 +37,15 @@ modules:
       # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-      # install:
+      install:
+        - io.github.celluloid_player.Celluloid
+        - org.gnome.Evince
+        - io.github.fabrialberio.pinapp
+        - org.onlyoffice.desktopeditors
+        - com.yubico.yubioath
+        - org.gnome.Firmware
+        - com.jeffser.Alpaca
+        - com.bitwarden.desktop
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
@@ -47,7 +53,10 @@ modules:
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
       remove:
-      - org.mozilla.firefox
+        - com.github.rafostar.Clapper
+        - org.gnome.Papers
+        - org.gnome.World.PikaBackup
+        - org.gnome.DejaDup
 
   - type: gschema-overrides
 
