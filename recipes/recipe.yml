@@ -24,11 +24,12 @@ modules:
     install:
       - mullvad-vpn
       - open-eid
-    # remove:
+    remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - simple-scan
 
   - type: default-flatpaks
     # notify: true # Send notification after install/uninstall is finished (true/false)
@@ -46,7 +47,7 @@ modules:
         - org.gnome.Firmware
         - com.jeffser.Alpaca
         - com.bitwarden.desktop
-        # - org.mozilla.firefox
+        - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
@@ -57,6 +58,7 @@ modules:
         - org.gnome.Papers
         - org.gnome.World.PikaBackup
         - org.gnome.DejaDup
+        - org.gnome.Connections
 
   - type: gschema-overrides
 
