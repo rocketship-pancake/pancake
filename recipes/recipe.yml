@@ -22,6 +22,8 @@ modules:
     optfix:
        - Mullvad VPN
     install:
+      - firefox
+      - firefox-langpacks
       - mullvad-vpn
       - open-eid
     remove:
@@ -39,15 +41,16 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - io.github.celluloid_player.Celluloid
-        - org.gnome.Evince
-        - io.github.fabrialberio.pinapp
-        - org.onlyoffice.desktopeditors
-        - com.yubico.yubioath
-        - org.gnome.Firmware
-        - com.jeffser.Alpaca
         - com.bitwarden.desktop
-        - org.mozilla.firefox
+        - com.jeffser.Alpaca
+        - com.protonvpn.www
+        - com.yubico.yubioath
+        - io.github.celluloid_player.Celluloid
+        - io.github.fabrialberio.pinapp
+        - network.loki.Session
+        - org.gnome.Evince
+        - org.gnome.Firmware
+        - org.onlyoffice.desktopeditors
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
@@ -55,10 +58,11 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
         - com.github.rafostar.Clapper
+        - org.gnome.Connections
+        - org.gnome.DejaDup
         - org.gnome.Papers
         - org.gnome.World.PikaBackup
-        - org.gnome.DejaDup
-        - org.gnome.Connections
+        - org.mozilla.firefox
 
   - type: gschema-overrides
 
