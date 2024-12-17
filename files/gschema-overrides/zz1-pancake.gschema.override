@@ -8,7 +8,7 @@ picture-uri='file:///usr/share/backgrounds/bluefin/10-bluefin.xml'
 picture-uri-dark='file:///usr/share/backgrounds/bluefin/10-bluefin.xml'
 picture-options='zoom'
 primary-color='000000'
-secondary-color='FFFFF
+secondary-color='FFFFFF'
 
 [org/gnome/desktop/interface]
 cursor-size=32
