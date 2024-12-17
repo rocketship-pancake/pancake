@@ -27,3 +27,6 @@ dock-position='BOTTOM'
 scroll-action='cycle-windows'
 custom-background-color=false
 show-trash=false
+
+[org.gnome.Ptyxis]
+cursor-shape='underline'
