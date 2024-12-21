@@ -26,13 +26,12 @@ modules:
       - firefox-langpacks
       - mullvad-vpn
       - open-eid
-      - blueman
-    remove:
+    # remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-      - simple-scan
+      # - simple-scan
 
   - type: default-flatpaks
     # notify: true # Send notification after install/uninstall is finished (true/false)
@@ -59,10 +58,10 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
         - com.github.rafostar.Clapper
-        - org.gnome.Connections
-        - org.gnome.DejaDup
+        # - org.gnome.Connections
+        # - org.gnome.DejaDup
         - org.gnome.Papers
-        - org.gnome.World.PikaBackup
+        # - org.gnome.World.PikaBackup
         - org.mozilla.firefox
 
   - type: gschema-overrides

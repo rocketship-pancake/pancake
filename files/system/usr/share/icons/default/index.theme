@@ -1,11 +1,2 @@
 [Icon Theme]
 Inherits=Breeze_Light
-Directories=256x256@2/apps
-
-[256x256@2x/apps]
-Context=Applications
-Scale=2
-Size=256
-MinSize=64
-MaxSize=256
-Type=Scalable
