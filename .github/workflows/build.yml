@@ -22,9 +22,9 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - recipe.yml
           - recipe-dx-nvidia.yml
-          - recipe-nvidia.yml
+          - recipe-dx.yml
+          - recipe.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
