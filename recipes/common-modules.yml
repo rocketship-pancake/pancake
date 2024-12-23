@@ -7,13 +7,13 @@ modules:
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      - https://repository.mullvad.net/rpm/stable/mullvad.repo
-    optfix:
-       - Mullvad VPN
+      # - https://repository.mullvad.net/rpm/stable/mullvad.repo # Mullvad-VPN repository
+    # optfix:
+       # - Mullvad VPN
     install:
       - firefox
       - firefox-langpacks
-      - mullvad-vpn
+      # - mullvad-vpn
       - open-eid
     # remove:
       # example: removing firefox (in favor of the flatpak)
@@ -30,13 +30,13 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - com.bitwarden.desktop
-        - com.jeffser.Alpaca
-        - com.protonvpn.www
-        - com.yubico.yubioath
+        # - com.bitwarden.desktop
+        # - com.jeffser.Alpaca
+        # - com.protonvpn.www
+        # - com.yubico.yubioath
         - io.github.celluloid_player.Celluloid
         - io.github.fabrialberio.pinapp
-        - network.loki.Session
+        # - network.loki.Session
         - org.gnome.Evince
         - org.gnome.Firmware
         - org.onlyoffice.desktopeditors
