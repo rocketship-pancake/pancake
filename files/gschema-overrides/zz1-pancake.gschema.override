@@ -17,16 +17,23 @@ icon-theme='Yaru'
 show-battery-percentage=true
 
 [org.gnome.shell.extensions.dash-to-dock]
-running-indicator-dominant-color=true
-show-apps-at-top=true
-show-apps-always-in-the-edge=false
-scroll-action='cycle-windows'
+apply-custom-theme=false
 click-action='minimize'
-transparency-mode='DEFAULT'
-dock-position='BOTTOM'
-scroll-action='cycle-windows'
 custom-background-color=false
+dock-position='BOTTOM'
+running-indicator-dominant-color=true
+scroll-action='cycle-windows'
 show-trash=false
+transparency-mode='DEFAULT'
+
+[org.gnome.desktop.wm.keybindings]
+move-to-workspace-left=['<Shift><Control>Left']
+move-to-workspace-right=['<Shift><Control>Right']
+switch-to-workspace-left=['<Control>Left']
+switch-to-workspace-right=['<Control>Right']
 
 [org.gnome.Ptyxis]
 cursor-shape='underline'
+
+[org.gnome.shell.app-switcher]
+current-workspace-only=true
