@@ -64,7 +64,7 @@ modules:
     system:
       enabled:
         - mullvad-daemon.service
-        - python3-validity.service
+        # - python3-validity.service
         # - open-fprintd.service
         # - open-fprintd-resume.service
         # - open-fprintd-suspend.service
