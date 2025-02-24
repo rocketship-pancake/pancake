@@ -21,8 +21,8 @@ modules:
       # - fprintd-clients
       # - fprintd-clients-pam
       # - python3-validity
-    remove:
-      - rclone
+    # remove:
+      # - rclone
       # - fprintd
       # - fprintd-pam
       # example: removing firefox (in favor of the flatpak)
