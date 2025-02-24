@@ -16,11 +16,13 @@ modules:
       - firefox-langpacks
       - mullvad-vpn
       - open-eid
+      - rclone-browser
       # - open-fprintd
       # - fprintd-clients
       # - fprintd-clients-pam
       # - python3-validity
-    # remove:
+    remove:
+      - rclone
       # - fprintd
       # - fprintd-pam
       # example: removing firefox (in favor of the flatpak)
@@ -59,6 +61,9 @@ modules:
         - org.gnome.Papers
         # - org.gnome.World.PikaBackup
         - org.mozilla.firefox
+      type: script
+      scripts: 
+        - rclone-beta.sh
 
   - type: systemd
     system:
