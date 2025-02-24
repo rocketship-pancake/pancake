@@ -61,8 +61,9 @@ modules:
         - org.gnome.Papers
         # - org.gnome.World.PikaBackup
         - org.mozilla.firefox
-      type: script
-      scripts: 
+
+  - type: script
+    scripts: 
         - rclone-beta.sh
 
   - type: systemd
