@@ -15,7 +15,7 @@ bash install-rclone.sh beta
 pip install --user keyring
 
 # Download the management script
-curl https://gist.githubusercontent.com/oleduc/b3473b34801f9618b77e579392a12d79/raw/3fa46a7adc9418d59cd0e38b096765e919fc703d/rclone-mount-proton.sh > rclone-mount-proton.sh
+curl -O https://gist.githubusercontent.com/oleduc/b3473b34801f9618b77e579392a12d79/raw/3fa46a7adc9418d59cd0e38b096765e919fc703d/rclone-mount-proton.sh
 mv rclone-mount-proton.sh /usr/local/bin/rclone-mount-proton.sh
 
 # Give the script execution permissions
