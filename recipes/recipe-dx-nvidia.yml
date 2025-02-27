@@ -1,5 +1,6 @@
 # image will be published to ghcr.io/<user>/<name>
 name: pancake-dx-nvidia
+
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
@@ -10,4 +11,18 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - from-file: common-modules.yml
+  #- from-file: common-modules.yml
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: rpm-ostree
+    install:
+      #- firefox
+      #- firefox-langpacks
+      - open-eid
+
+  - type: gschema-overrides
+
+  - type: signing
