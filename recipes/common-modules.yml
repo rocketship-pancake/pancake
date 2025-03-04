@@ -9,6 +9,7 @@ modules:
       - firefox
       - firefox-langpacks
       - open-eid
+      - mscore-fonts-all
 
   - type: default-flatpaks
     system:
