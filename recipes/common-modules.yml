@@ -4,11 +4,12 @@ modules:
       - source: system
         destination: /
 
-  - type: rpm-ostree
+  - type: dnf
     install:
-      - firefox
-      - firefox-langpacks
-      - open-eid
+      packages:
+        - firefox
+        - firefox-langpacks
+        - open-eid
 
   - type: default-flatpaks
     system:
