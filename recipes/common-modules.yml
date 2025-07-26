@@ -13,8 +13,8 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      scope: system
-      install:
+        scope: system
+        install:
         - io.github.celluloid_player.Celluloid
         - io.github.fabrialberio.pinapp
         - org.gnome.Evince
