@@ -12,7 +12,8 @@ modules:
         - open-eid
 
   - type: default-flatpaks
-    system:
+    configurations:
+      scope: system
       install:
         - io.github.celluloid_player.Celluloid
         - io.github.fabrialberio.pinapp
