@@ -20,10 +20,6 @@ modules:
         - org.gnome.Evince
         - org.gnome.Firmware
         - org.onlyoffice.desktopeditors
-      remove:
-        - com.github.rafostar.Clapper
-        - org.gnome.Papers
-        - org.mozilla.firefox
 
   - type: gschema-overrides
 
