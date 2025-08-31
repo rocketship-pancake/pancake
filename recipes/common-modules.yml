@@ -10,6 +10,8 @@ modules:
         - firefox
         - firefox-langpacks
         - open-eid
+        - xdg-desktop-portal
+        - xdg-desktop-portal-gnome
 
   - type: default-flatpaks
     configurations:
