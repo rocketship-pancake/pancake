@@ -12,25 +12,3 @@ image-version: stable-daily # latest is also supported if you want new updates A
 # you can include multiple instances of the same module
 modules:
   - from-file: common-modules.yml
-
-  - type: dnf
-    repos:
-      copr:
-        - sneexy/python-validity
-
-    install:
-      packages:
-        - open-fprintd
-        - fprintd-clients
-        - fprintd-clients-pam
-        - python3-validity
-    
-    remove:
-      auto-remove: false
-      packages:
-        - fprintd
-        - fprintd-pam
-    
-  - type: script
-    scripts:
-      - python-validity.sh
