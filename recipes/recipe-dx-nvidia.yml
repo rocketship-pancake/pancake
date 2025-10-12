@@ -18,7 +18,7 @@ modules:
       keys:
         - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
       files:
-        - https://download.vscodium.com/rpms/
+        - https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/
     install:
       packages:
-        - codium
+        - vscodium
