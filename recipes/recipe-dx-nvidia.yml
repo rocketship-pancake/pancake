@@ -12,13 +12,3 @@ image-version: stable-daily # latest is also supported if you want new updates A
 # you can include multiple instances of the same module
 modules:
   - from-file: common-modules.yml
-
-  - type: dnf
-    repos:
-      keys:
-        - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-      files:
-        - https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/
-    install:
-      packages:
-        - vscodium
