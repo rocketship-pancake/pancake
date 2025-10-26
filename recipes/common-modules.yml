@@ -10,6 +10,8 @@ modules:
         - firefox
         - firefox-langpacks
         - open-eid
+        - breeze-cursor-theme
+        - yaru-theme
 
   - type: default-flatpaks
     configurations:
