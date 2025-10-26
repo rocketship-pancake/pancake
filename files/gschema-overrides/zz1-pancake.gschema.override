@@ -10,7 +10,7 @@ primary-color='000000'
 secondary-color='FFFFFF'
 
 [org.gnome.desktop.interface]
-cursor-size=32
+cursor-size=24
 cursor-theme='Breeze_Light'
 icon-theme='Yaru'
 show-battery-percentage=true
