@@ -22,7 +22,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          - recipe-dx-nvidia.yml
+          - recipe-dx-nvidia-open.yml
           - recipe-dx.yml
           - recipe.yml
     steps:
